@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang='en-US'>
+<head>
+    <title>Document</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="HTML5 boilerplate">
+    <meta name="author" content="mlf">
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- open graph for Facebook -->
+    <meta property="og:title" content="HTML5 boilerplate">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/html5-boilerplate/">
+    <meta property="og:description" content="HTML5 boilerplate">
+    <meta property="og:image" content="image.png">
+
+    <!-- favicons go in root directory -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!--
+    Scripts with the async attribute are executed asynchronously, meaning it is
+    executed as soon as it's downloaded, without blocking the browser. They may
+    not execute in order.
+    -->
+    <script src="js/script1.js" async></script>
+    <script src="js/script2.js" async></script>
+
+    <!--
+    Defer scripts are only executed after the entire document has been loaded.
+    They are executed in order.
+    -->
+    <script src="js/script1.js" defer></script>
+    <script src="js/script2.js" defer></script>
+    
+</head>
+<body>
+    <!--
+    YOUR CONTENT HERE
+    -->
+
+    <!--
+    Or you can place javascript at bottom of the body, which doesn’t block
+    page rendering, doesn’t involve repetition, and has support from all
+    browsers.
+    Reference: https://www.html5rocks.com/en/tutorials/speed/script-loading/
+    -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+</html>
